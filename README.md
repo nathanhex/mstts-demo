@@ -1,6 +1,13 @@
 # 基于微软的免费的接近真人效果的TTS java实现
 
 微软的tts语音合成发音接近真人。效果非常好，本仓库基于微软官方的demo实现了免费的tts示例，使用了java语言实现。
+## 使用
+```shell
+git clone https://github.com/nathanhex/chatgpt-demo.git
+mvn package
+java -jar target/tts-jar-with-dependencies.jar
+```
+将输出的base64字符串执行转换成二进制文件，并且修改后缀名为.mp3就可以播放了
 ## 微软官方demo解析
 
 微软的语音合成demo使用了websocket连接，一次合成会通过websocket想服务器发起三次请求，服务器通过若干个响应信息返回mp3格式音频
