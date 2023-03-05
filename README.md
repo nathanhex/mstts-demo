@@ -3,7 +3,7 @@
 微软的tts语音合成发音接近真人。效果非常好，本仓库基于微软官方的demo实现了免费的tts示例，使用了java语言实现。
 ## 使用
 ```shell
-git clone https://github.com/nathanhex/chatgpt-demo.git
+git clone https://github.com/nathanhex/mstts-demo.git
 mvn package
 java -jar target/tts-jar-with-dependencies.jar
 ```
